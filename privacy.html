@@ -3,206 +3,847 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Politique de confidentialité — Studio VoidLand</title>
+<title>Politique de confidentialité — Water Sort — Studio VoidLand</title>
+<meta name="description" content="Politique de confidentialité du jeu Water Sort : données traitées, bases légales, publicité, droits des joueurs.">
 <style>
-  :root { --encre:#1a1a1a; --doux:#666; --fond:#fdfdfb; --trait:#e5e5e0; }
-  body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
-         line-height:1.65; color:var(--encre); background:var(--fond);
-         max-width:46rem; margin:0 auto; padding:2.5rem 1.25rem 5rem; }
-  h1 { font-size:1.75rem; margin-bottom:.25rem; }
-  h2 { font-size:1.15rem; margin-top:2.25rem; border-bottom:1px solid var(--trait);
-       padding-bottom:.4rem; }
-  .maj { color:var(--doux); font-size:.9rem; margin-bottom:2rem; }
-  .langue { margin:2rem 0 3rem; padding:.75rem 1rem; background:#f0f0ec;
-            border-radius:6px; font-size:.9rem; }
-  table { border-collapse:collapse; width:100%; margin:1rem 0; font-size:.93rem; }
-  th,td { text-align:left; padding:.5rem .6rem; border-bottom:1px solid var(--trait);
-          vertical-align:top; }
-  th { font-weight:600; }
-  a { color:#1a5fb4; }
-  footer { margin-top:4rem; padding-top:1.5rem; border-top:1px solid var(--trait);
-           color:var(--doux); font-size:.88rem; }
-  hr.sep { margin:4rem 0; border:0; border-top:2px solid var(--trait); }
+  :root{--encre:#16181d;--doux:#5c6270;--fond:#fdfdfb;--trait:#e3e4df;
+        --surlign:#f3f4ef;--accent:#1a5fb4;--alerte:#8a4b00;--alerte-fond:#fdf6e9;}
+  *{box-sizing:border-box;}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       line-height:1.65;color:var(--encre);background:var(--fond);
+       max-width:48rem;margin:0 auto;padding:2rem 1.25rem 5rem;
+       -webkit-text-size-adjust:100%;}
+  h1{font-size:1.8rem;line-height:1.25;margin:.2rem 0 .3rem;}
+  h2{font-size:1.1rem;margin-top:2.5rem;padding-bottom:.4rem;
+     border-bottom:1px solid var(--trait);}
+  h3{font-size:.98rem;margin-top:1.6rem;color:var(--doux);
+     text-transform:uppercase;letter-spacing:.04em;}
+  .maj{color:var(--doux);font-size:.9rem;margin:0 0 1.5rem;}
+  .bascule{display:flex;gap:.5rem;flex-wrap:wrap;font-size:.88rem;margin-bottom:2rem;}
+  .bascule a{display:inline-block;padding:.3rem .7rem;border:1px solid var(--trait);
+             border-radius:999px;text-decoration:none;background:#fff;}
+  .encadre{background:var(--surlign);border-radius:8px;padding:1rem 1.15rem;margin:1.5rem 0;
+           font-size:.95rem;}
+  .encadre p:first-child{margin-top:0;} .encadre p:last-child{margin-bottom:0;}
+  .avis{background:var(--alerte-fond);border-left:4px solid var(--alerte);
+        border-radius:0 6px 6px 0;padding:.9rem 1.1rem;margin:1.5rem 0;font-size:.94rem;}
+  .resume{border:1px solid var(--trait);border-radius:8px;padding:.3rem 1.15rem;margin:1.5rem 0;}
+  .resume h3{margin-top:1.1rem;}
+  table{border-collapse:collapse;width:100%;margin:1.1rem 0;font-size:.9rem;}
+  th,td{text-align:left;padding:.55rem .6rem;border-bottom:1px solid var(--trait);
+        vertical-align:top;}
+  th{font-weight:600;background:var(--surlign);}
+  td code{font-size:.86em;background:var(--surlign);padding:.05rem .3rem;border-radius:3px;}
+  a{color:var(--accent);}
+  ul{padding-left:1.3rem;} li{margin:.3rem 0;}
+  footer{margin-top:4rem;padding-top:1.5rem;border-top:1px solid var(--trait);
+         color:var(--doux);font-size:.88rem;}
+  hr.sep{margin:4.5rem 0;border:0;border-top:3px double var(--trait);}
+  .scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+  @media (max-width:520px){ table{font-size:.84rem;} th,td{padding:.45rem .4rem;} }
 </style>
 </head>
 <body>
 
-<div class="langue"><strong>Français</strong> · <a href="#english">English version below</a></div>
+<!-- ============================================================
+     FRANÇAIS
+     ============================================================ -->
+<section id="fr" lang="fr">
+
+<div class="bascule">
+  <a href="#fr" aria-current="page"><strong>Français</strong></a>
+  <a href="#en">English</a>
+  <a href="terms.html">Conditions d'utilisation</a>
+  <a href="support.html">Support</a>
+</div>
 
 <h1>Politique de confidentialité</h1>
-<p class="maj">Studio VoidLand — Water Sort · Dernière mise à jour : 23 octobre 2026</p>
+<p class="maj">
+  Jeu <strong>Water Sort</strong> — Studio VoidLand<br>
+  Dernière modification de fond : <strong>23 octobre 2026</strong> · Dernière relecture : 23 octobre 2026
+</p>
 
-<p>Cette politique explique quelles données le jeu <strong>Water Sort</strong> traite,
-pourquoi, et quels sont vos droits. Nous avons choisi de la garder courte et lisible
-plutôt que longue et impénétrable.</p>
+<div class="avis">
+  <p><strong>Water Sort n'est pas destiné aux personnes de moins de 16 ans</strong> et ne
+  leur est pas spécifiquement adressé.</p>
+  <p>Le jeu est classé « tous publics » sur les boutiques d'applications : cela signifie
+  que <em>son contenu</em> ne choque personne, et non qu'il est <em>conçu pour</em> des
+  enfants. Nous ne concevons ni ne promouvons Water Sort à destination d'un public
+  d'enfants, et nous ne collectons pas sciemment de données les concernant.</p>
+</div>
 
-<h2>1. Ce que nous ne faisons pas</h2>
-<p>Water Sort ne vous demande <strong>aucune donnée personnelle</strong> : pas de compte,
-pas de nom, pas d'adresse e-mail, pas de numéro de téléphone. Le jeu n'accède ni à vos
-contacts, ni à vos photos, ni à votre position, ni à votre microphone, ni à votre caméra.</p>
+<p>
+  Cette politique décrit les données que le jeu Water Sort traite, pourquoi, avec qui,
+  combien de temps, et ce que vous pouvez exiger de nous. Elle est écrite à partir d'un
+  inventaire des composants réellement embarqués dans le jeu — pas d'un modèle générique.
+</p>
 
-<h2>2. Données traitées</h2>
+<div class="resume">
+  <h3>L'essentiel en cinq points</h3>
+  <ul>
+    <li>Le jeu <strong>ne vous demande rien</strong> : ni compte, ni nom, ni e-mail.</li>
+    <li>Votre <strong>progression reste sur votre téléphone</strong>. Nous n'en avons aucune copie.</li>
+    <li>Nous ne tenons <strong>aucune base de données de joueurs</strong>. Nous ne pouvons pas vous identifier.</li>
+    <li>Deux composants tiers embarqués traitent des données : un service publicitaire et
+    un outil de statistiques.</li>
+    <li>Nous ne vendons vos données à personne et vous pouvez refuser la publicité ciblée.</li>
+  </ul>
+</div>
 
+<h2>1. Qui est responsable de ces données</h2>
+
+<p>
+  Le responsable du traitement est <strong>Grégory Blaugy</strong>, personne physique,
+  qui publie ses jeux sous le nom <strong>Studio VoidLand</strong>. Il n'y a derrière ce
+  nom ni société, ni équipe : une seule personne.
+</p>
+<p>
+  Pour toute question relative à cette politique, ou pour exercer vos droits :
+  <a href="mailto:studio.voidland@gmail.com">studio.voidland@gmail.com</a>.
+  Nous répondons sous un mois au plus.
+</p>
+<p>
+  L'adresse postale de l'éditeur figure sur la fiche du jeu, dans les boutiques
+  d'applications, au titre des informations sur le professionnel exigées par le règlement
+  européen sur les services numériques. Nous ne la reproduisons pas ici afin de ne pas
+  publier une adresse privée sur deux supports distincts ; elle vous sera communiquée sur
+  simple demande par e-mail.
+</p>
+
+<h2>2. Ce que le jeu ne fait pas</h2>
+
+<p>
+  Water Sort ne vous demande <strong>aucune donnée personnelle</strong> : pas de compte,
+  pas de nom, pas d'adresse e-mail, pas de numéro de téléphone, pas de date de naissance.
+</p>
+<p>
+  Le jeu <strong>ne demande aucune autorisation donnant accès à vos contacts, vos photos,
+  vos fichiers, votre position géographique, votre microphone ou votre caméra</strong>.
+  Les seules autorisations qu'il déclare sont l'accès à internet, l'état de la connexion,
+  la vibration du téléphone, et — sur Android — l'identifiant publicitaire
+  (<code>AD_ID</code>), dont l'usage est décrit au paragraphe 4.
+  Il n'y a dans le jeu ni messagerie, ni espace de discussion, ni contenu publié par
+  les joueurs.
+</p>
+<p>
+  Nous <strong>ne vendons pas</strong> vos données et nous ne les échangeons pas contre
+  une rémunération.
+</p>
+
+<h2>3. Données traitées, finalité par finalité</h2>
+
+<p>
+  Le tableau ci-dessous est la partie importante de ce document. Chaque ligne indique ce
+  qui est traité, pourquoi, sur quel fondement juridique, par quel composant, et pendant
+  combien de temps.
+</p>
+
+<div class="scroll">
 <table>
-  <tr><th>Donnée</th><th>Pourquoi</th><th>Par qui</th></tr>
-  <tr>
-    <td>Identifiant publicitaire de l'appareil (IDFA sur iOS, AAID sur Android)</td>
-    <td>Afficher des publicités et limiter leur répétition</td>
-    <td>Unity LevelPlay / ironSource</td>
-  </tr>
-  <tr>
-    <td>Modèle d'appareil, système d'exploitation, pays, langue</td>
-    <td>Comprendre comment le jeu est utilisé et corriger les problèmes</td>
-    <td>GameAnalytics</td>
-  </tr>
-  <tr>
-    <td>Événements de jeu (niveau atteint, durée de session, progression)</td>
-    <td>Améliorer la difficulté et l'équilibrage</td>
-    <td>GameAnalytics</td>
-  </tr>
-  <tr>
-    <td>Progression, pièces, réglages</td>
-    <td>Conserver votre partie</td>
-    <td>Stocké <strong>uniquement sur votre appareil</strong></td>
-  </tr>
+  <thead>
+    <tr><th>Donnée</th><th>Finalité</th><th>Base légale (RGPD)</th><th>Traitée par</th><th>Conservation</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Identifiant publicitaire de l'appareil (IDFA sur iOS, AAID sur Android)</td>
+      <td>Afficher de la publicité <strong>personnalisée</strong>, limiter la répétition
+          des annonces, détecter la fraude publicitaire</td>
+      <td><strong>Votre consentement</strong> (art. 6-1-a). En l'absence de consentement,
+          cette donnée n'est pas utilisée pour personnaliser les annonces.</td>
+      <td>Unity LevelPlay / ironSource et les régies partenaires</td>
+      <td>Selon la politique de Unity (lien au § 5). L'identifiant est réinitialisable à
+          tout moment depuis votre téléphone.</td>
+    </tr>
+    <tr>
+      <td>Type d'appareil, version du système, pays, langue, taille d'écran, connexion</td>
+      <td>Afficher de la publicité <strong>contextuelle</strong> (non personnalisée) et
+          l'adapter techniquement à votre écran</td>
+      <td><strong>Intérêt légitime</strong> (art. 6-1-f) : financer un jeu gratuit.</td>
+      <td>Unity LevelPlay / ironSource</td>
+      <td>Selon la politique de Unity (lien au § 5)</td>
+    </tr>
+    <tr>
+      <td>Identifiant d'appareil fourni par le système — l'IDFV sur iOS, un identifiant
+          équivalent ou aléatoire sur Android — ainsi que le modèle d'appareil, le système,
+          le pays, la langue et la version du jeu. L'identifiant publicitaire peut
+          également être collecté lorsqu'il est disponible.</td>
+      <td>Mesurer l'audience du jeu : combien de parties, sur quels appareils, dans quels pays</td>
+      <td><strong>Intérêt légitime</strong> (art. 6-1-f) pour la mesure d'audience ;
+          <strong>votre consentement</strong> pour l'identifiant publicitaire, qui n'est
+          de toute façon pas disponible si vous avez refusé le suivi. L'IDFV est commun aux
+          seules applications publiées par Studio VoidLand sur votre appareil : il ne permet
+          pas de vous suivre chez d'autres éditeurs, et il change si vous désinstallez
+          toutes nos applications.</td>
+      <td>GameAnalytics</td>
+      <td>Selon la politique de GameAnalytics (lien au § 5)</td>
+    </tr>
+    <tr>
+      <td>Événements de jeu : niveau atteint, niveau échoué, durée de session, indices
+          utilisés, pièces gagnées. Également l'adresse IP, dont est déduit le pays, et
+          les éventuels rapports d'erreur technique transmis par le composant</td>
+      <td>Équilibrer la difficulté, repérer les niveaux bloquants</td>
+      <td><strong>Intérêt légitime</strong> (art. 6-1-f)</td>
+      <td>GameAnalytics</td>
+      <td>Selon la politique de GameAnalytics (lien au § 5)</td>
+    </tr>
+    <tr>
+      <td>Progression, étoiles, pièces, indices et annulations restants, skins débloqués,
+          coffres ouverts, réglages de son, de musique et de vibration, langue choisie,
+          récompense quotidienne</td>
+      <td>Reprendre votre partie là où vous l'avez laissée</td>
+      <td>Exécution du service que vous avez demandé (art. 6-1-b)</td>
+      <td><strong>Personne. Ces données ne quittent pas votre appareil</strong>
+          (<code>PlayerPrefs</code>)</td>
+      <td>Jusqu'à la désinstallation du jeu ou l'effacement des données de l'application</td>
+    </tr>
+  </tbody>
 </table>
+</div>
 
-<p>Votre progression ne quitte jamais votre téléphone. Elle disparaît si vous
-désinstallez le jeu.</p>
+<div class="encadre">
+  <p><strong>Nous n'avons pas de serveur.</strong> Studio VoidLand ne tient aucune base
+  de données de joueurs : nous ne conservons nous-mêmes aucune des données ci-dessus.
+  Nous consultons uniquement des statistiques agrégées, dans lesquelles aucun joueur
+  n'est distinguable.</p>
+  <p><strong>Votre progression est irrécupérable</strong> si vous désinstallez le jeu
+  ou changez de téléphone. C'est la contrepartie du fait qu'elle n'est stockée que chez
+  vous. Il n'y a pas de sauvegarde dans le nuage.</p>
+</div>
 
-<h2>3. Publicité</h2>
-<p>Le jeu affiche des publicités, dont certaines que vous choisissez de regarder en
-échange d'une récompense. Elles sont fournies par des régies partenaires qui peuvent
-utiliser votre identifiant publicitaire pour proposer des annonces plus pertinentes.</p>
+<h2>4. Publicité</h2>
 
-<p><strong>Sur iOS</strong>, le jeu vous demande votre autorisation avant tout suivi
-publicitaire (App Tracking Transparency). Si vous refusez, le jeu fonctionne
-normalement : les publicités sont simplement moins ciblées.</p>
+<p>
+  Water Sort est gratuit et financé par la publicité. Deux formats sont utilisés : des
+  interstitiels, qui apparaissent une fois un niveau terminé, et des publicités
+  <strong>récompensées</strong>, que vous choisissez de regarder en échange d'un indice ou
+  de pièces. <strong>Aucune publicité n'interrompt un niveau en cours.</strong>
+</p>
 
-<p><strong>Sur Android</strong>, vous pouvez réinitialiser ou supprimer votre identifiant
-publicitaire dans <em>Paramètres → Google → Annonces</em>.</p>
+<h3>Personnalisée ou contextuelle</h3>
+<p>
+  Une publicité <strong>contextuelle</strong> est choisie sans rien savoir de vous : elle
+  ne dépend que de votre pays, de votre langue et du jeu dans lequel elle s'affiche.
+  Une publicité <strong>personnalisée</strong> utilise l'identifiant publicitaire de votre
+  appareil pour tenir compte des applications que vous utilisez et des annonces que vous
+  avez déjà vues.
+</p>
+<p>
+  La publicité personnalisée n'a lieu que si vous y avez consenti. Si vous refusez, ou si
+  nous n'avons pas recueilli votre consentement, <strong>le jeu affiche de la publicité
+  contextuelle</strong>. Vous verrez autant de publicités, simplement moins pertinentes —
+  il n'est pas possible de désactiver complètement la publicité dans la version gratuite.
+</p>
 
-<p>Politiques de nos partenaires :</p>
+<h3>Comment refuser ou revenir sur votre choix</h3>
 <ul>
-  <li><a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">Unity / ironSource LevelPlay</a></li>
-  <li><a href="https://gameanalytics.com/privacy" target="_blank" rel="noopener">GameAnalytics</a></li>
+  <li><strong>Sur iPhone et iPad.</strong> Au premier lancement, le jeu affiche la demande
+  d'autorisation de suivi d'Apple (App Tracking Transparency). Si vous refusez, aucun
+  identifiant publicitaire n'est transmis — le système d'exploitation l'en empêche.
+  Vous pouvez revenir sur votre réponse à tout moment :
+  <em>Réglages → Confidentialité et sécurité → Suivi</em>, puis désactiver Water Sort.
+  Pour bloquer la demande pour toutes les applications :
+  <em>Réglages → Confidentialité et sécurité → Suivi → Autoriser les apps à demander
+  à vous suivre</em>.</li>
+
+  <li><strong>Sur Android.</strong> <em>Paramètres → Google → Tous les services →
+  Annonces</em>, puis « Supprimer l'ID publicitaire » ou « Réinitialiser l'ID
+  publicitaire ». La suppression empêche la personnalisation pour toutes vos
+  applications.</li>
+
+  <li><strong>Dans l'annonce elle-même.</strong> La plupart des publicités affichent une
+  petite icône d'information qui ouvre les réglages de la régie concernée.</li>
 </ul>
 
-<h2>4. Enfants</h2>
-<p>Water Sort n'est pas destiné aux enfants de moins de 13 ans et ne leur est pas
-spécifiquement adressé. Nous ne collectons pas sciemment de données concernant des
-enfants de moins de 13 ans. Si vous pensez que cela s'est produit, écrivez-nous et
-nous supprimerons ces données.</p>
+<h3>Nos partenaires publicitaires</h3>
+<p>
+  Nous ne contractons qu'avec un seul fournisseur, <strong>Unity (LevelPlay /
+  ironSource)</strong>, qui peut mettre plusieurs régies en concurrence pour chaque
+  emplacement publicitaire. <strong>À ce jour, les seules régies activées sont celles
+  d'Unity : ironSource et Unity Ads.</strong> Si nous en activons d'autres, elles
+  relèveront de la même politique, publiée et tenue à jour par Unity et liée au paragraphe
+  suivant ; nous ne recopions pas cette liste ici pour éviter de publier une version
+  périmée.
 
-<h2>5. Vos droits</h2>
-<p>Si vous résidez dans l'Union européenne, le RGPD vous donne le droit d'accéder à vos
-données, de les corriger, de les faire supprimer, de vous opposer à leur traitement et
-d'en demander la portabilité. Pour l'exercer, écrivez-nous à l'adresse ci-dessous.</p>
+</p>
 
-<p>Comme nous ne collectons aucune donnée permettant de vous identifier personnellement,
-nous pourrons avoir besoin de votre identifiant publicitaire pour retrouver les données
-vous concernant chez nos partenaires.</p>
+<h2>5. Avec qui ces données sont partagées</h2>
 
-<h2>6. Conservation</h2>
-<p>Les données d'usage sont conservées par nos partenaires selon leurs propres durées,
-indiquées dans leurs politiques. Les données stockées sur votre appareil y restent
-jusqu'à la désinstallation du jeu.</p>
+<div class="scroll">
+<table>
+  <thead>
+    <tr><th>Partenaire</th><th>Rôle</th><th>Ce qu'il reçoit</th><th>Sa politique</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Unity Technologies (LevelPlay / ironSource) et les régies qu'il met en concurrence</td>
+      <td><strong>Responsable de traitement indépendant</strong> : ces sociétés décident
+          elles-mêmes de l'usage des données publicitaires, dans le cadre de leurs propres
+          politiques.</td>
+      <td>Identifiant publicitaire (si vous y consentez), type d'appareil, système,
+          pays, langue, adresse IP</td>
+      <td><a href="https://unity.com/legal/game-player-and-app-user-privacy-policy"
+             target="_blank" rel="noopener">unity.com/legal</a></td>
+    </tr>
+    <tr>
+      <td>GameAnalytics ApS (Danemark)</td>
+      <td><strong>Sous-traitant</strong> : agit sur nos instructions. Il peut par ailleurs
+          utiliser des données agrégées et anonymisées pour établir des comparatifs de
+          marché, dans les conditions de sa propre politique.</td>
+      <td>Identifiant d'appareil (IDFV ou équivalent), identifiant publicitaire s'il est
+          disponible, modèle d'appareil, système, pays, langue, événements de jeu</td>
+      <td><a href="https://gameanalytics.com/developer-policy/" target="_blank" rel="noopener">Politique
+          applicable aux joueurs</a> ·
+          <a href="https://gameanalytics.com/privacy/" target="_blank" rel="noopener">politique générale</a></td>
+    </tr>
+    <tr>
+      <td>Apple et Google</td>
+      <td>Distributeurs de l'application. Ils traitent le téléchargement, les mises à jour
+          et les statistiques de la boutique selon leurs propres politiques, auxquelles
+          nous n'avons aucun accès individuel.</td>
+      <td>Données de téléchargement et de boutique, que nous ne recevons que sous forme
+          agrégée</td>
+      <td><a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">apple.com</a> ·
+          <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">google.com</a></td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
-<h2>7. Modifications</h2>
-<p>Cette politique peut évoluer. La date de dernière mise à jour figure en haut de cette
-page. Les changements importants seront signalés dans le jeu.</p>
+<p>
+  Nous ne retenons que des partenaires dont les engagements contractuels et les politiques
+  publiées — liées ci-dessus — prévoient pour les données des joueurs une
+  <strong>protection équivalente à celle décrite dans la présente politique</strong>, et
+  nous n'intégrons dans le jeu aucun autre composant susceptible d'accéder à ces données.
+  Nous pourrions être tenus de communiquer des données sur réquisition d'une autorité
+  judiciaire ; en pratique, nous n'en détenons aucune.
+</p>
 
-<h2>8. Contact</h2>
-<p>Studio VoidLand — <a href="mailto:studio.voidland@gmail.com">studio.voidland@gmail.com</a></p>
+<h2>6. Transferts hors de l'Union européenne</h2>
+<p>
+  Nos partenaires publicitaires et statistiques peuvent traiter des données en dehors de
+  l'Espace économique européen, notamment aux États-Unis et en Israël. Ces transferts
+  s'appuient sur les mécanismes prévus par le chapitre V du RGPD : clauses contractuelles
+  types de la Commission européenne, ou décision d'adéquation lorsqu'elle existe pour le
+  pays concerné. Vous pouvez nous écrire pour savoir quel mécanisme s'applique à un
+  partenaire donné.
+</p>
+
+<h2>7. Durées de conservation</h2>
+<ul>
+  <li><strong>Données stockées sur votre appareil</strong> (progression, réglages) : elles
+  y restent jusqu'à ce que vous désinstalliez le jeu ou effaciez les données de
+  l'application. Nous n'y avons pas accès et ne pouvons pas les supprimer à votre place.</li>
+  <li><strong>Données détenues par Studio VoidLand</strong> : aucune. Nous ne conservons
+  aucune donnée de joueur en propre.</li>
+  <li><strong>Données détenues par nos partenaires</strong> : selon les durées indiquées
+  dans leurs politiques, liées au paragraphe 5. Les critères qu'ils appliquent sont le
+  temps nécessaire à la finalité poursuivie — mesurer une audience, lutter contre la fraude
+  publicitaire — puis leurs obligations légales de conservation. Nous n'avons pas la main
+  sur ces durées et nous ne les inventons pas ici ; écrivez-nous si vous voulez que nous
+  les obtenions pour vous.</li>
+  <li><strong>Correspondance</strong> : les e-mails que vous nous envoyez sont conservés
+  le temps de traiter votre demande, puis trois ans, afin de pouvoir justifier de la
+  réponse apportée.</li>
+</ul>
+
+<h2>8. Vos droits</h2>
+<p>
+  Si vous résidez dans l'Union européenne, le RGPD vous donne le droit d'accéder à vos
+  données, de les faire rectifier ou effacer, d'en limiter le traitement, de vous opposer
+  à un traitement fondé sur notre intérêt légitime, d'en demander la portabilité, et de
+  <strong>retirer votre consentement</strong> à la publicité personnalisée à tout moment
+  (voir § 4). Des droits comparables existent au Royaume-Uni, en Suisse, au Brésil (LGPD)
+  et dans d'autres pays.
+</p>
+<p>
+  <strong>Comment les exercer.</strong> Écrivez-nous à
+  <a href="mailto:studio.voidland@gmail.com">studio.voidland@gmail.com</a>.
+  Comme nous ne détenons aucune donnée permettant de vous identifier, nous ne pourrons
+  pas retrouver « vos » données chez nous : il n'y en a pas. Deux conséquences pratiques :
+</p>
+<ul>
+  <li>pour les données <strong>sur votre appareil</strong>, le moyen le plus rapide et le
+  plus complet est de désinstaller le jeu ou d'effacer les données de l'application
+  depuis les réglages du téléphone ;</li>
+  <li>pour les données détenues par nos <strong>partenaires publicitaires</strong>, nous
+  vous indiquerons comment les saisir directement, en vous communiquant les coordonnées
+  utiles — ils n'ont besoin que de votre identifiant publicitaire, que votre téléphone
+  vous permet de consulter.</li>
+</ul>
+<p>
+  Si notre réponse ne vous satisfait pas, vous pouvez saisir l'autorité de protection des
+  données de votre pays. En France, il s'agit de la
+  <a href="https://www.cnil.fr/fr/plaintes" target="_blank" rel="noopener">CNIL</a>.
+</p>
+<p>
+  Deux précisions que le RGPD nous demande d'apporter. Le jeu <strong>ne prend aucune
+  décision automatisée</strong> ayant un effet juridique à votre égard, et ne fait pas de
+  profilage au sens de l'article 22. Et la fourniture de ces données <strong>n'est ni une
+  obligation légale ni une condition contractuelle</strong> : vous pouvez jouer en refusant
+  le suivi publicitaire, auquel cas seule la pertinence des annonces change.
+</p>
+
+<h2>9. Résidents des États-Unis</h2>
+<p>
+  Si vous résidez en Californie ou dans un autre État dont la loi accorde de tels droits
+  (Virginie, Colorado, Connecticut, Utah, Texas, Oregon et les suivants à mesure que ces
+  lois entrent en vigueur), vous pouvez demander à savoir quelles catégories de données
+  sont collectées, en obtenir la suppression, et refuser leur « vente » ou leur
+  « partage ».
+</p>
+<p>
+  Nous ne vendons pas vos données au sens courant du terme : nous ne recevons pas d'argent
+  en échange de données. La transmission d'un identifiant publicitaire à une régie afin
+  d'afficher une publicité personnalisée peut toutefois être qualifiée de « vente » ou de
+  « partage » par ces lois. <strong>Pour vous y opposer</strong> : refusez le suivi
+  publicitaire sur iOS, ou supprimez votre identifiant publicitaire sur Android (chemins
+  indiqués au § 4). Ce refus est transmis par le système d'exploitation aux régies
+  publicitaires, qui s'engagent à le respecter au titre de leurs propres politiques.
+  Vous pouvez également nous écrire. Les signaux conçus pour les navigateurs web — « Global
+  Privacy Control », « Do Not Track » — ne s'appliquent pas à une application mobile : nous
+  n'avons aucun moyen de les recevoir.
+</p>
+<p>
+  Nous ne traitons aucune donnée sensible au sens de ces lois, et nous n'utilisons les
+  données à aucune fin de profilage produisant des effets juridiques. Les catégories de
+  données concernées, leur source et leur finalité sont celles du tableau du paragraphe 3 ;
+  nous ne les conservons pas nous-mêmes.
+</p>
+<p>
+  Conformément au <strong>COPPA</strong>, nous ne collectons pas sciemment de données
+  concernant des enfants de moins de 13 ans, et le jeu n'est pas déclaré comme destiné aux
+  enfants. Un parent peut nous écrire pour demander la suppression de données qu'un enfant
+  aurait transmises.
+</p>
+
+<h2>10. Enfants</h2>
+<p>
+  Water Sort n'est pas destiné aux personnes de moins de 16 ans. Nous ne collectons pas
+  sciemment de données concernant des enfants, et le jeu n'est pas déclaré comme
+  « destiné aux enfants » auprès des boutiques d'applications ni de nos partenaires
+  publicitaires.
+</p>
+<p>
+  Si vous êtes parent ou tuteur et pensez qu'un enfant nous a transmis des données,
+  écrivez-nous : nous ferons le nécessaire pour les faire supprimer. Le moyen le plus
+  immédiat reste d'effacer les données de l'application et de supprimer l'identifiant
+  publicitaire de l'appareil.
+</p>
+
+<h2>11. Sécurité</h2>
+<p>
+  Les données transmises entre le jeu et nos partenaires le sont par des connexions
+  chiffrées (HTTPS). Les données de progression restant sur votre appareil, elles
+  bénéficient des protections de votre système d'exploitation. Aucun dispositif n'est
+  infaillible : nous ne pouvons pas garantir une sécurité absolue, mais nous limitons le
+  risque en ne collectant presque rien et en ne conservant aucune base de joueurs.
+</p>
+
+<h2>12. Modifications de cette politique</h2>
+<p>
+  Nous distinguons deux types de changements. Une <strong>relecture</strong> corrige une
+  formulation ou un lien sans modifier le traitement des données : seule la date de
+  relecture change. Une <strong>modification de fond</strong> intervient lorsque le jeu
+  commence à traiter de nouvelles données — par exemple le jour où des achats intégrés
+  seront ajoutés : la date de modification de fond change, et le changement est décrit
+  dans les notes de la version concernée sur la boutique.
+</p>
+<p>Les deux dates figurent en haut de cette page.</p>
+
+<h2>13. Contact</h2>
+<p>
+  Studio VoidLand — <a href="mailto:studio.voidland@gmail.com">studio.voidland@gmail.com</a><br>
+  Voir aussi les <a href="terms.html">conditions d'utilisation</a> et la
+  <a href="support.html">page de support</a>.
+</p>
+
+</section>
 
 <hr class="sep">
 
-<div class="langue" id="english"><strong>English</strong> · <a href="#">Version française ci-dessus</a></div>
+<!-- ============================================================
+     ENGLISH
+     ============================================================ -->
+<section id="en" lang="en">
+
+<div class="bascule">
+  <a href="#fr">Français</a>
+  <a href="#en" aria-current="page"><strong>English</strong></a>
+  <a href="terms.html">Terms of Use</a>
+  <a href="support.html">Support</a>
+</div>
 
 <h1>Privacy Policy</h1>
-<p class="maj">Studio VoidLand — Water Sort · Last updated: 23 October 2026</p>
+<p class="maj">
+  <strong>Water Sort</strong> — Studio VoidLand<br>
+  Last substantive update: <strong>23 October 2026</strong> · Last reviewed: 23 October 2026
+</p>
 
-<p>This policy explains what data the game <strong>Water Sort</strong> processes, why,
-and what your rights are. We have deliberately kept it short and readable.</p>
+<div class="avis">
+  <p><strong>Water Sort is not intended for people under 16</strong> and is not directed
+  at them.</p>
+  <p>The game carries an all-ages content rating on the app stores. That rating means
+  <em>its content</em> is suitable for everyone — not that the game is <em>designed
+  for</em> children. We neither design nor market Water Sort to a child audience, and we
+  do not knowingly collect data about children.</p>
+</div>
 
-<h2>1. What we do not do</h2>
-<p>Water Sort asks you for <strong>no personal data</strong>: no account, no name, no
-email address, no phone number. The game does not access your contacts, photos,
-location, microphone or camera.</p>
+<p>
+  This policy sets out what data Water Sort processes, why, with whom, for how long, and
+  what you can require of us. It was written from an inventory of the components actually
+  shipped in the game, not from a generic template.
+</p>
 
-<h2>2. Data processed</h2>
+<div class="resume">
+  <h3>The short version</h3>
+  <ul>
+    <li>The game <strong>asks you for nothing</strong>: no account, no name, no email.</li>
+    <li>Your <strong>progress stays on your phone</strong>. We hold no copy of it.</li>
+    <li>We keep <strong>no player database</strong>. We cannot identify you.</li>
+    <li>Two embedded third-party components process data: an advertising service and an
+    analytics tool.</li>
+    <li>We sell your data to no one, and you can decline personalised advertising.</li>
+  </ul>
+</div>
 
+<h2>1. Who is responsible for this data</h2>
+
+<p>
+  The data controller is <strong>Grégory Blaugy</strong>, an individual, who publishes his
+  games under the name <strong>Studio VoidLand</strong>. There is no company and no team
+  behind that name: one person.
+</p>
+<p>
+  For any question about this policy, or to exercise your rights:
+  <a href="mailto:studio.voidland@gmail.com">studio.voidland@gmail.com</a>.
+  We reply within one month at the latest.
+</p>
+<p>
+  The publisher's postal address appears on the game's store listing, as part of the trader
+  information required by the European Digital Services Act. We do not repeat it here so as
+  not to publish a private address in two separate places; it will be provided on request
+  by email.
+</p>
+
+<h2>2. What the game does not do</h2>
+<p>
+  Water Sort asks you for <strong>no personal data</strong>: no account, no name, no email
+  address, no phone number, no date of birth.
+</p>
+<p>
+  The game <strong>requests no permission giving access to your contacts, photos, files,
+  location, microphone or camera</strong>. The only permissions it declares are internet
+  access, network state, device vibration, and — on Android — the advertising identifier
+  (<code>AD_ID</code>), whose use is described in section 4.
+  There is no messaging, no chat and no user-generated content in the game.
+</p>
+<p>
+  We <strong>do not sell</strong> your data and do not exchange it for payment.
+</p>
+
+<h2>3. Data processed, purpose by purpose</h2>
+
+<p>
+  The table below is the substance of this document. Each row states what is processed,
+  why, on what legal basis, by which component, and for how long.
+</p>
+
+<div class="scroll">
 <table>
-  <tr><th>Data</th><th>Purpose</th><th>Processed by</th></tr>
-  <tr>
-    <td>Device advertising identifier (IDFA on iOS, AAID on Android)</td>
-    <td>Serving ads and capping how often they repeat</td>
-    <td>Unity LevelPlay / ironSource</td>
-  </tr>
-  <tr>
-    <td>Device model, operating system, country, language</td>
-    <td>Understanding how the game is used and fixing issues</td>
-    <td>GameAnalytics</td>
-  </tr>
-  <tr>
-    <td>Gameplay events (level reached, session length, progression)</td>
-    <td>Improving difficulty and balancing</td>
-    <td>GameAnalytics</td>
-  </tr>
-  <tr>
-    <td>Progress, coins, settings</td>
-    <td>Saving your game</td>
-    <td>Stored <strong>on your device only</strong></td>
-  </tr>
+  <thead>
+    <tr><th>Data</th><th>Purpose</th><th>Legal basis (GDPR)</th><th>Processed by</th><th>Retention</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Device advertising identifier (IDFA on iOS, AAID on Android)</td>
+      <td>Serving <strong>personalised</strong> advertising, capping ad repetition,
+          detecting ad fraud</td>
+      <td><strong>Your consent</strong> (Art. 6(1)(a)). Without consent, this data is not
+          used to personalise ads.</td>
+      <td>Unity LevelPlay / ironSource and partner ad networks</td>
+      <td>Per Unity's policy (linked in § 5). You can reset the identifier at any time
+          from your phone.</td>
+    </tr>
+    <tr>
+      <td>Device type, OS version, country, language, screen size, connection type</td>
+      <td>Serving <strong>contextual</strong> (non-personalised) advertising and fitting it
+          to your screen</td>
+      <td><strong>Legitimate interests</strong> (Art. 6(1)(f)): funding a free game.</td>
+      <td>Unity LevelPlay / ironSource</td>
+      <td>Per Unity's policy (linked in § 5)</td>
+    </tr>
+    <tr>
+      <td>A device identifier provided by the operating system — the IDFV on iOS, an
+          equivalent or random identifier on Android — together with device model, OS,
+          country, language and game version. The advertising identifier may also be
+          collected where it is available.</td>
+      <td>Measuring the game's audience: how many sessions, on which devices, in which
+          countries</td>
+      <td><strong>Legitimate interests</strong> (Art. 6(1)(f)) for audience measurement;
+          <strong>your consent</strong> for the advertising identifier, which in any case is
+          unavailable if you declined tracking. The IDFV is shared only across apps
+          published by Studio VoidLand on your device: it cannot be used to follow you
+          across other publishers, and it changes if you uninstall all of our apps.</td>
+      <td>GameAnalytics</td>
+      <td>Per GameAnalytics' policy (linked in § 5)</td>
+    </tr>
+    <tr>
+      <td>Gameplay events: level reached, level failed, session length, hints used, coins
+          earned. Also the IP address, from which the country is derived, and any technical
+          error reports the component sends</td>
+      <td>Balancing difficulty, spotting levels that block players</td>
+      <td><strong>Legitimate interests</strong> (Art. 6(1)(f))</td>
+      <td>GameAnalytics</td>
+      <td>Per GameAnalytics' policy (linked in § 5)</td>
+    </tr>
+    <tr>
+      <td>Progress, stars, coins, remaining hints and undos, unlocked skins, chests opened,
+          sound, music and vibration settings, chosen language, daily reward</td>
+      <td>Resuming your game where you left it</td>
+      <td>Performance of the service you asked for (Art. 6(1)(b))</td>
+      <td><strong>No one. This data never leaves your device</strong>
+          (<code>PlayerPrefs</code>)</td>
+      <td>Until you uninstall the game or clear the app's data</td>
+    </tr>
+  </tbody>
 </table>
+</div>
 
-<p>Your progress never leaves your phone. It is lost if you uninstall the game.</p>
+<div class="encadre">
+  <p><strong>We have no server.</strong> Studio VoidLand keeps no player database: none of
+  the data above is retained by us. We only look at aggregated statistics, in which no
+  individual player can be distinguished.</p>
+  <p><strong>Your progress cannot be recovered</strong> if you uninstall the game or
+  change phone. That is the trade-off for storing it only on your device. There is no
+  cloud save.</p>
+</div>
 
-<h2>3. Advertising</h2>
-<p>The game shows advertisements, including rewarded ads you choose to watch. They are
-served by partner networks which may use your advertising identifier to show more
-relevant ads.</p>
+<h2>4. Advertising</h2>
+<p>
+  Water Sort is free and funded by advertising. Two formats are used: interstitials, shown
+  once a level is finished, and <strong>rewarded</strong> ads you choose to watch in
+  exchange for a hint or coins. <strong>No ad ever interrupts a level in progress.</strong>
+</p>
 
-<p><strong>On iOS</strong>, the game asks for your permission before any ad tracking
-(App Tracking Transparency). If you decline, the game works normally — ads are simply
-less targeted.</p>
+<h3>Personalised or contextual</h3>
+<p>
+  A <strong>contextual</strong> ad is chosen without knowing anything about you: it depends
+  only on your country, your language and the game it appears in. A
+  <strong>personalised</strong> ad uses your device's advertising identifier to take
+  account of the apps you use and the ads you have already seen.
+</p>
+<p>
+  Personalised advertising only happens if you have consented to it. If you decline, or if
+  we have not collected your consent, <strong>the game serves contextual
+  advertising</strong>. You will see the same number of ads, simply less relevant ones —
+  advertising cannot be switched off entirely in the free version.
+</p>
 
-<p><strong>On Android</strong>, you can reset or delete your advertising ID under
-<em>Settings → Google → Ads</em>.</p>
-
-<p>Our partners' policies:</p>
+<h3>How to decline, or change your mind</h3>
 <ul>
-  <li><a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">Unity / ironSource LevelPlay</a></li>
-  <li><a href="https://gameanalytics.com/privacy" target="_blank" rel="noopener">GameAnalytics</a></li>
+  <li><strong>On iPhone and iPad.</strong> On first launch, the game shows Apple's
+  App Tracking Transparency prompt. If you decline, no advertising identifier is
+  transmitted — the operating system prevents it. You can change your answer at any time:
+  <em>Settings → Privacy &amp; Security → Tracking</em>, then turn Water Sort off. To block
+  the prompt for every app: <em>Settings → Privacy &amp; Security → Tracking → Allow Apps
+  to Request to Track</em>.</li>
+
+  <li><strong>On Android.</strong> <em>Settings → Google → All services → Ads</em>, then
+  "Delete advertising ID" or "Reset advertising ID". Deleting it prevents personalisation
+  across all your apps.</li>
+
+  <li><strong>In the ad itself.</strong> Most ads display a small information icon that
+  opens the relevant network's settings.</li>
 </ul>
 
-<h2>4. Children</h2>
-<p>Water Sort is not directed to children under 13. We do not knowingly collect data
-from children under 13. If you believe this has happened, contact us and we will delete
-the data.</p>
+<h3>Our advertising partners</h3>
+<p>
+  We contract with a single provider, <strong>Unity (LevelPlay / ironSource)</strong>,
+  which can put several ad networks in competition for each ad placement. <strong>As of
+  today, the only networks enabled are Unity's own: ironSource and Unity Ads.</strong> If
+  we enable others, they will fall under the same policy, published and kept current by
+  Unity and linked below; we do not copy that list here, to avoid publishing a stale
+  version.
+</p>
 
-<h2>5. Your rights</h2>
-<p>If you live in the European Union, the GDPR gives you the right to access, correct,
-delete and port your data, and to object to its processing. To exercise these rights,
-contact us at the address below.</p>
+<h2>5. Who this data is shared with</h2>
 
-<p>Because we collect no personally identifying information, we may need your
-advertising identifier to locate data relating to you held by our partners.</p>
+<div class="scroll">
+<table>
+  <thead>
+    <tr><th>Partner</th><th>Role</th><th>What it receives</th><th>Its policy</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Unity Technologies (LevelPlay / ironSource) and the ad networks it mediates</td>
+      <td><strong>Independent controllers</strong>: these companies decide themselves how
+          advertising data is used, under their own policies.</td>
+      <td>Advertising identifier (if you consent), device type, OS, country, language,
+          IP address</td>
+      <td><a href="https://unity.com/legal/game-player-and-app-user-privacy-policy"
+             target="_blank" rel="noopener">unity.com/legal</a></td>
+    </tr>
+    <tr>
+      <td>GameAnalytics ApS (Denmark)</td>
+      <td><strong>Processor</strong>: acts on our instructions. It may additionally use
+          aggregated, anonymised data to produce market benchmarks, under the terms of its
+          own policy.</td>
+      <td>Device identifier (IDFV or equivalent), advertising identifier where available,
+          device model, OS, country, language, gameplay events</td>
+      <td><a href="https://gameanalytics.com/developer-policy/" target="_blank" rel="noopener">Policy
+          covering players</a> ·
+          <a href="https://gameanalytics.com/privacy/" target="_blank" rel="noopener">general policy</a></td>
+    </tr>
+    <tr>
+      <td>Apple and Google</td>
+      <td>App distributors. They handle downloads, updates and store statistics under their
+          own policies, to which we have no individual-level access.</td>
+      <td>Download and store data, which we receive only in aggregate</td>
+      <td><a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">apple.com</a> ·
+          <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">google.com</a></td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
-<h2>6. Retention</h2>
-<p>Usage data is retained by our partners according to their own retention periods, set
-out in their policies. Data stored on your device remains there until you uninstall the
-game.</p>
+<p>
+  We only retain partners whose contractual commitments and published policies — linked
+  above — provide player data with <strong>the same or equal protection as described in
+  this policy</strong>, and we embed no other component in the game capable of accessing
+  that data. We could be required to disclose data in response to a lawful order from a
+  judicial authority; in practice we hold none.
+</p>
 
-<h2>7. Changes</h2>
-<p>This policy may change. The last updated date appears at the top of this page.
-Significant changes will be announced in the game.</p>
+<h2>6. Transfers outside the European Union</h2>
+<p>
+  Our advertising and analytics partners may process data outside the European Economic
+  Area, in particular in the United States and Israel. Such transfers rely on the
+  mechanisms set out in Chapter V GDPR: the European Commission's standard contractual
+  clauses, or an adequacy decision where one exists for the country concerned. Write to us
+  if you want to know which mechanism applies to a given partner.
+</p>
 
-<h2>8. Contact</h2>
-<p>Studio VoidLand — <a href="mailto:studio.voidland@gmail.com">studio.voidland@gmail.com</a></p>
+<h2>7. Retention</h2>
+<ul>
+  <li><strong>Data stored on your device</strong> (progress, settings): it stays there
+  until you uninstall the game or clear the app's data. We have no access to it and cannot
+  delete it for you.</li>
+  <li><strong>Data held by Studio VoidLand</strong>: none. We retain no player data of our
+  own.</li>
+  <li><strong>Data held by our partners</strong>: per the retention periods in their
+  policies, linked in § 5. The criteria they apply are the time needed for the purpose
+  pursued — measuring an audience, fighting ad fraud — and then their statutory retention
+  obligations. We do not control those periods and will not invent them here; write to us
+  if you want us to obtain them for you.</li>
+  <li><strong>Correspondence</strong>: emails you send us are kept for as long as it takes
+  to handle your request, then for three years, so we can evidence the answer given.</li>
+</ul>
+
+<h2>8. Your rights</h2>
+<p>
+  If you live in the European Union, the GDPR gives you the right to access your data,
+  have it corrected or erased, restrict its processing, object to processing based on our
+  legitimate interests, request its portability, and <strong>withdraw your consent</strong>
+  to personalised advertising at any time (see § 4). Comparable rights exist in the United
+  Kingdom, Switzerland, Brazil (LGPD) and other countries.
+</p>
+<p>
+  <strong>How to exercise them.</strong> Write to
+  <a href="mailto:studio.voidland@gmail.com">studio.voidland@gmail.com</a>.
+  Because we hold no data that identifies you, we cannot retrieve "your" data on our side:
+  there is none. Two practical consequences:
+</p>
+<ul>
+  <li>for data <strong>on your device</strong>, the fastest and most complete route is to
+  uninstall the game or clear the app's data from your phone's settings;</li>
+  <li>for data held by our <strong>advertising partners</strong>, we will tell you how to
+  approach them directly and give you the relevant contact details — all they need is your
+  advertising identifier, which your phone lets you view.</li>
+</ul>
+<p>
+  If our answer does not satisfy you, you may lodge a complaint with your country's data
+  protection authority. In France that is the
+  <a href="https://www.cnil.fr/en/home" target="_blank" rel="noopener">CNIL</a>.
+</p>
+<p>
+  Two points the GDPR requires us to make. The game takes <strong>no automated
+  decision</strong> producing legal effects concerning you, and performs no profiling within
+  the meaning of Article 22. And providing this data is <strong>neither a statutory nor a
+  contractual requirement</strong>: you can play while declining ad tracking, in which case
+  only the relevance of the ads changes.
+</p>
+
+<h2>9. United States residents</h2>
+<p>
+  If you live in California or another state whose law grants such rights (Virginia,
+  Colorado, Connecticut, Utah, Texas, Oregon, and others as those laws come into force),
+  you may ask what categories of data are collected, request their deletion, and opt out
+  of their "sale" or "sharing".
+</p>
+<p>
+  We do not sell your data in the ordinary sense: we receive no money in exchange for
+  data. Passing an advertising identifier to an ad network in order to serve a personalised
+  ad may nonetheless be treated as a "sale" or "sharing" under those laws.
+  <strong>To opt out</strong>: decline tracking on iOS, or delete your advertising
+  identifier on Android (paths given in § 4). That refusal is passed by the operating
+  system to the ad networks, which undertake to honour it under their own policies. You may
+  also write to us. Signals designed for web browsers — "Global Privacy Control", "Do Not
+  Track" — do not apply to a mobile app: we have no way of receiving them.
+</p>
+<p>
+  We process no sensitive data within the meaning of those laws, and we use data for no
+  profiling that produces legal effects. The categories of data concerned, their source and
+  their purpose are those in the table in section 3; we do not retain them ourselves.
+</p>
+<p>
+  In line with <strong>COPPA</strong>, we do not knowingly collect data about children under
+  13, and the game is not declared as child-directed. A parent may write to us to request
+  deletion of data a child may have provided.
+</p>
+
+<h2>10. Children</h2>
+<p>
+  Water Sort is not intended for people under 16. We do not knowingly collect data about
+  children, and the game is not declared as "child-directed" to the app stores or to our
+  advertising partners.
+</p>
+<p>
+  If you are a parent or guardian and believe a child has provided us with data, write to
+  us and we will arrange for its deletion. The most immediate step remains clearing the
+  app's data and deleting the device's advertising identifier.
+</p>
+
+<h2>11. Security</h2>
+<p>
+  Data exchanged between the game and our partners travels over encrypted connections
+  (HTTPS). Because progress data stays on your device, it benefits from your operating
+  system's protections. No arrangement is infallible: we cannot guarantee absolute
+  security, but we limit the risk by collecting almost nothing and keeping no player
+  database.
+</p>
+
+<h2>12. Changes to this policy</h2>
+<p>
+  We distinguish two kinds of change. A <strong>review</strong> corrects wording or a link
+  without altering how data is processed: only the review date changes. A
+  <strong>substantive update</strong> happens when the game starts processing new data —
+  for instance the day in-app purchases are added: the substantive update date changes, and
+  the change is described in the release notes of the version concerned on the store.
+</p>
+<p>Both dates appear at the top of this page.</p>
+
+<h2>13. Contact</h2>
+<p>
+  Studio VoidLand — <a href="mailto:studio.voidland@gmail.com">studio.voidland@gmail.com</a><br>
+  See also the <a href="terms.html">Terms of Use</a> and the
+  <a href="support.html">support page</a>.
+</p>
+
+</section>
 
 <footer>
-  © 2026 Studio VoidLand · <a href="terms.html">Conditions d'utilisation / Terms of Use</a>
+  © 2026 Studio VoidLand · <a href="#fr">Français</a> · <a href="#en">English</a> ·
+  <a href="terms.html">Conditions / Terms</a> · <a href="support.html">Support</a>
 </footer>
 
 </body>
